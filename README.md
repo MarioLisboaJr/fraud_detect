@@ -10,7 +10,8 @@
 
 <div style="text-align: left;">
     <a href="https://api-fraud-detect.herokuapp.com/docs"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width=10%></a>
-    <a href="https://mariolisboajr-fraud-detect-webappinicio-z0x73u.streamlitapp.com/"><img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" width=10%></a>        
+    <a href="https://mariolisboajr-fraud-detect-webappinicio-z0x73u.streamlitapp.com/"><img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" width=10%></a>
+     <a href="https://app.powerbi.com/view?r=eyJrIjoiOThlZGRjMDYtMGM3Mi00Y2I5LWIzOGEtYjQxODNkMjcyYjU0IiwidCI6ImZhOGUwZDM3LTZhOTgtNDE3YS1iN2E0LWNmMzFiZjc5NThmYSJ9&pageName=ReportSection"><img src="https://www.pei.com/wp-content/uploads/2016/08/maxresdefaultreduced.jpg" width=8%></a>
 </div> 
 
 <h2> DEFINIÇÃO DO PROBLEMA </h2>
@@ -27,13 +28,15 @@ Desenvolvimento:
 
 - Conectar a database do SQLite
 - Realizar análise descritiva dos dados
+    - Criar visualização de dados no Power BI para explicitar principais observações
 - Desenvolver um modelo de Machine Learning para Classificação
 - Classificar as contas:
     - Disponibilizar a classificação para consulta em um arquivo csv
     - Criar uma RestAPI capaz de classificar as contas ainda não classificadas do banco de dados 
 
 **Acessar RestAPI**: https://api-fraud-detect.herokuapp.com/docs <br>
-**Visualizar trabalho no Streamlit**: https://mariolisboajr-fraud-detect-webappinicio-z0x73u.streamlitapp.com/
+**Visualizar trabalho no Streamlit**: https://mariolisboajr-fraud-detect-webappinicio-z0x73u.streamlitapp.com/ <br>
+**Análise de Dados Power BI**: [app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiOThlZGRjMDYtMGM3Mi00Y2I5LWIzOGEtYjQxODNkMjcyYjU0IiwidCI6ImZhOGUwZDM3LTZhOTgtNDE3YS1iN2E0LWNmMzFiZjc5NThmYSJ9&pageName=ReportSection)
     
 <hr>
 
@@ -102,6 +105,14 @@ Tabela com as transações efetivadas por cada conta, logo, caso um boleto tenha
 - As contas da categoria B tendem a receber mais, indo de encontro ao esperado que era a categoria A. Ao que parece, a vantagem da categoria A é que ela é mais uniforme entre valores já recebidos e valores futuros a receber. Assim, além de serem a segunda melhor correlacionada aos recebimentos, são também mais previsíveis, podendo as tornar mais vantajosas;
 - As contas classificadas como F tendem a ter um valor médio dos pix enviados menor;
 - Em contas lícitas, os valores médios recebidos por pix e boletos e, valores médios dos boletos a receber, tendem a ser maiores.
+
+<br>
+<br>
+
+**Análise de Dados Power BI**: [app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiOThlZGRjMDYtMGM3Mi00Y2I5LWIzOGEtYjQxODNkMjcyYjU0IiwidCI6ImZhOGUwZDM3LTZhOTgtNDE3YS1iN2E0LWNmMzFiZjc5NThmYSJ9&pageName=ReportSection)
+
+<br>
+<br>
 
 **Abaixo podemos visualizar melhor estas informações:**
 
@@ -242,6 +253,7 @@ Pelos fatos descritos podemos também chegar à conclusão que além da classifi
 
 Mário Lisbôa <br>
 Pós-Graduando em Data Science e Analytics - USP [🔗](https://mbauspesalq.com/cursos/mba-em-data-science-e-analytics) <br>
+Engenheiro de Produção - UFSJ [🔗](https://ufsj.edu.br/coenp/o_curso.php) <br>
 
 <div style="text-align: left;">
         <a href="https://www.linkedin.com/in/mario-lisboa/">
